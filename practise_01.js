@@ -46,25 +46,28 @@
 // --------------------------------------------------------------------------------------------------------
 // Q4 Remove duplicate email from array of objects
 
-let arr = [
-  {
-    name: "shivani",
-    email: "shivani1@",
-  },
-  {
-    name: "neha",
-    email: "neha2@",
-  },
-  {
-    name: "pk",
-    email: "shivani1@",
-  },
-];
+// let arr = [
+//   {
+//     name: "shivani",
+//     email: "shivani1@",
+//   },
+//   {
+//     name: "neha",
+//     email: "neha2@",
+//   },
+//   {
+//     name: "pk",
+//     email: "shivani1@",
+//   },
+// ];
 
-const setCreated = new Set(arr);
-const value = arr.filter((obj) => {
-  const data = setCreated.has(obj.email);
-  setCreated.add(obj.email);
-  return !data;
-});
-console.log("value", value);
+// const setCreated = new Set(arr);
+// const value = arr.filter((obj) => {
+//   const data = setCreated.has(obj.email);
+//   setCreated.add(obj.email);
+//   return !data;
+// });
+// console.log("value", value);
+
+// -------------------------------------------------------------------------------------
+
