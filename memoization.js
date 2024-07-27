@@ -6,8 +6,9 @@ const sum = (a,b)=>{
 }
 
 function memo(fn){
-
+    
     const cache = {};
+
     return function(...args){
 
         const key = args.join(",")
@@ -26,4 +27,4 @@ function memo(fn){
 
 const result = memo(sum);
 console.log(result(2,2))
-console.log(result(2,3))
+console.log(result(2,2))
