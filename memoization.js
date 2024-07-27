@@ -26,4 +26,4 @@ function memo(fn){
 
 const result = memo(sum);
 console.log(result(2,2))
-console.log(result(2,2))
+console.log(result(2,3))
